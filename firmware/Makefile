@@ -15,7 +15,7 @@
 # FUSES ........ Parameters for avrdude to flash the fuses appropriately.
 
 DEVICE     = atmega168p
-DEVICE_DUDE	   = m168
+DEVICE_DUDE	   = m168p
 CLOCK      = 20000000
 PROGRAMMER = -c avrispmkII -P usb -F
 OBJECTS    = main.o
