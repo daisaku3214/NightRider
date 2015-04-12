@@ -19,7 +19,7 @@ DEVICE_DUDE	   = m168
 CLOCK      = 20000000
 PROGRAMMER = -c avrispmkII -P usb -F
 OBJECTS    = main.o
-FUSES      = -U hfuse:w:0xdf:m -U lfuse:w:0xe6:m
+FUSES      = -U hfuse:w:0xd7:m -U lfuse:w:0xe6:m
 # ATMega8 fuse bits (fuse bits for other devices are different!):
 # Example for 8 MHz internal oscillator
 # Fuse high byte:

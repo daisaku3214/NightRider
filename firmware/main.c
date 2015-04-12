@@ -92,7 +92,6 @@ int main(void)
 	PORTB = 0x00;/*all0*/
 	PORTC = 0x00;/*all0*/
 	PORTD = 0b11100000;/*PD5PD6PD7pullup*/
-    temp = 0;
 	//******************************************************************	
 	//
 	adcint();
